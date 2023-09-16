@@ -1,0 +1,108 @@
+/* Start global rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+/* Start container */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* extra-small */
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* small */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+/* medium */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/* large */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+/* x-large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+/* xx-large */
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+/* End container */
+/* End global rules */
+/* start design  */
+.qr-code {
+  position: relative;
+  width: 375px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 20px;
+  background-color: white;
+}
+.qr-code .image {
+  position: relative;
+  left: 0;
+  padding: 0 20px;
+  margin: 10px auto 40px;
+}
+.qr-code img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.qr-code .text {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.qr-code h1 {
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .qr-code h1 {
+    font-size: 20px;
+  }
+}
+.qr-code p {
+  font-size: 15px;
+  padding: 0 20px;
+}
+@media (max-width: 767px) {
+  .qr-code p {
+    font-size: 13px;
+    padding: 0;
+  }
+}
+
+/* End design  */
